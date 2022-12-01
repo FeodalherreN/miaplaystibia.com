@@ -20,10 +20,10 @@ export default {
         let embed = new Twitch.Embed("twitch-embed", {
           width: 520,
           height: 292,
-          channel: "lexylou",
+          channel: "miaplaystibia",
           layout: "video",
           autoplay: false,
-          parent: ["embed.example.com", "othersite.example.com"]
+          parent: ["miaplaystibia.com"]
         });
 
         embed.addEventListener(Twitch.Embed.VIDEO_READY, () => {
